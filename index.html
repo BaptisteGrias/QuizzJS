@@ -6,11 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizz JS</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <h1> Culture Quizz</h1>
+<div class="container-global">
+    <form class="form-quizz">
+        <div class="bloc-question">
+            <h4>What do Americans celebrate on the 4th July?
+            </h4>
+           <div>
+               <input type="radio" id="constitution" name="q1"
+               value="a" checked>
+               <label for="constitution">The signing of the constitution</label>
+            </div>
+            <div>
+                <input type="radio" id="birthday" name="q1"
+                value="b" >
+                <label for="birthday">Washington's birthday</label>
+             </div>
+             <div>
+                <input type="radio" id="independence" name="q1"
+                value="c" >
+                <label for="independence">The Declaration of Independence</label>
+             </div>
+        </div>
 
+        <div class="bloc-question">
+            <h4>What is the most spoken language after English?
+            </h4>
+           <div>
+               <input type="radio" id="french" name="q2" value="a" checked>
+               <label for="french">French</label>
+            </div>
+            <div>
+                <input type="radio" id="spanish" name="q2" value="b" >
+                <label for="spanish">Spanish</label>
+             </div>
+             <div>
+                <input type="radio" id="chinese" name="q2" value="c" >
+                <label for="chinese">Chinese</label>
+             </div>
+        </div>
 
+        <div class="bloc-question">
+            <h4>which country gave the statue of liberty to the United-States ?
+            </h4>
+           <div>
+               <input type="radio" id="russia" name="q3" value="a" checked>
+               <label for="russia">Russia</label>
+            </div>
+            <div>
+                <input type="radio" id="france" name="q3" value="b" >
+                <label for="france">France</label>
+             </div>
+             <div>
+                <input type="radio" id="canada" name="q3" value="c">
+                <label for="canada">Canada</label>
+             </div>
+        </div>
+
+        <div class="bloc-question">
+            <h4>How many states in the United States?
+            </h4>
+           <div>
+               <input type="radio" id="n1" name="q4" value="a" checked>
+               <label for="n1">50</label>
+            </div>
+            <div>
+                <input type="radio" id="n2" name="q4" value="b" >
+                <label for="n2">48</label>
+             </div>
+             <div>
+                <input type="radio" id="n3" name="q4" value="c" >
+                <label for="n3">52</label>
+             </div>
+        </div>
+
+        <div class="bloc-question">
+            <h4>what is the biggest state in the United-States?
+            </h4>
+           <div>
+               <input type="radio" id="texas" name="q5"
+               value="a" checked>
+               <label for="texas">Texas</label>
+            </div>
+            <div>
+                <input type="radio" id="california" name="q5" value="b">
+                <label for="california">California</label>
+             </div>
+             <div>
+                <input type="radio" id="alaska" name="q5" value="c">
+                <label for="alaska">Alaska</label>
+             </div>
+        </div>
+        <button type="submit">Submit answers</button>
+    </form>
+    <div class="result">
+        <h2>Show your result</h2>
+        <div>
+            <p class="help"></p>
+            <p class="score"></p>
+        </div>
+    </div>
+</div>
 
     <script src="app.js"></script>
 </body>
